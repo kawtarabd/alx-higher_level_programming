@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-"""function that adds two integer."""
-def add_integer(a, b=98):
-    """adds_integers.
+"""add_integer."""
 
-    :parametre a: number.
-    :parametre b: number.
+
+def add_integer(a, b=98):
+    """add_integer.
+
+    :param a: number.
+    :param b: number.
     """
     if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
