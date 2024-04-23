@@ -1,8 +1,5 @@
 #!/usr/bin/node
-
-let i = 2;
-
-while (i < process.argv.length) {
-  console.log(process.argv[i]);
-  i++;
+const mul = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (const line of mul) {
+  console.log(line);
 }
